@@ -12,67 +12,123 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-
+		<style>
+			body {
+				overflow-x: hidden !important;
+		    }
+			
+			.carousel { 
+				overflow: hidden;
+			}
+			.item { 
+				overflow: hidden; 
+			}
+			
+			
+			#features {
+				background: #ffffff url("img/bg.jpg") no-repeat top left;
+				min-height: 1900px;
+				padding: 1em 0 0 1em;
+			}
+			
+			li {
+				padding: .5em;
+			}
+		</style>
     </head>
     <body>
+	<div class="row">
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<div class="jumbotron" style="padding: 0">
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron col-md-12" style="padding: 0">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+				<div class="item active">
+				  <img src="img/slider/0.jpg">
+				</div>
 
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		  
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner">
-			<div class="item active">
-			  <img src="img/slider/0.jpg">
-			</div>
+				<div class="item">
+				  <img src="img/slider/1.jpg">
+				</div>
 
-			<div class="item">
-			  <img src="img/slider/1.jpg">
-			</div>
+				<div class="item">
+				  <img src="img/slider/2.jpg">
+				</div>
+			  </div>
+			  
+			  <div style="position: absolute; top: 2em; left: 2em">
+					<img src="img/logo.png">
+			  </div>
+			  
+			  <div style="position: absolute; bottom: 0; width: 100%; padding-top: 5px; padding-bottom: 5px; background: rgba(0, 0, 0, 0.5);">
+					<img class="center-block" src="img/slogan.png">
+			  </div>		    
+		  </div><!-- end carousel -->
 
-			<div class="item">
-			  <img src="img/slider/2.jpg">
-			</div>
+		</div><!-- end jumbotron -->
+	</div>
+
+    <div id="features">
+		<div class="row">
+		  <div class="col-md-1 text-center">
+			<h3><strong>
+			<em>45</em> degree<br>
+			angle of<br>
+			operation
+			</strong></h3>
+		  </div>	
+		
+		  <div class="col-md-11 text-right">
+			<img src="img/telescope.jpg"><br>
+			
+			<h3><strong>
+			60mm of vertical plunge
+			&nbsp;&nbsp;
+			</strong></h3>
 		  </div>
-		  
-		  <div style="position: absolute; top: 2em; left: 2em">
-		        <img src="img/logo.png">
-		  </div>
-		  
-		  <div style="position: absolute; bottom: 0; width: 100%; padding: 5px; background: rgba(0, 0, 0, 0.5);">
-				<img class="center-block" src="img/slogan.png">
-		  </div>		    
-      </div><!-- end carousel -->
-
-    </div><!-- end jumbotron -->
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
       </div>
+      <div class="row">
+		  <img class="center-block" src="img/xp.png">
+	  </div>
+	  
+	  <div class="row h3">
+		  <div class="col-md-4 text-center">
+			<img class="center-block" src="img/bug.png"><br>
+			<h1><strong>800-338-2326</strong></h1>
+			<h3>sales@atvpc.com</h3><br>
+			
+			Buy the Monster Extreme Perfomance Axle on eBay<br>
 
-      <hr>
+			<a href="https://www.ebay.com/str/atvpartsconnection/Monster-Axle-XP-Sets/_i.html?_storecat=3642950018">
+				SUPER SAVINGS when you purchase all four!
+			</a>
 
-      <footer>
-        <p>&copy; Company 2015</p>
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			
+		  </div>
+		  <div class="col-md-6">
+			  <ul>
+				  <li>Monster Axles™ XP Series axles are designed to be stronger, more dependable and longer lasting than any other ATV/UTV axle</li>
+
+				  <li>Inner and outer joints share the same design, each with a 45 degree angle of operation (OEM inner joint only 23 degrees)</li>
+
+				  <li>Up to 60mm of vertical plunge for added performance (recommended for up to 4” lift kits)</li>
+
+				  <li>Plunge mechanism is removed from the inner joint and, instead, operates independently on the shaft itself (eliminating debilitating interactions in the joint that can damage the axle)</li>
+
+				  <li>XP axles will never bind, burr or mushroom, leaving you with a CV joint that cannot be removed from the shaft</li>
+
+				  <li>If necessary, XP axles are a breeze to repair - both inner and outer joints can be easily removed and serviced - even in the field</li>
+
+				  <li>If needed, replacement parts are readily available </li>
+			 </ul>
+		  </div>
+	  </div>
+
+
+    </div> <!-- end features -->        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
