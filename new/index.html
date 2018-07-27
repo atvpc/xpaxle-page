@@ -13,6 +13,14 @@
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 		<style>
+			@media (min-width: 1200px) {
+				#features {
+					background: #ffffff url("img/bg.jpg") no-repeat top left;
+					min-height: 1900px;
+					padding: 1em 0 0 1em;
+				}
+			}
+
 			body {
 				overflow-x: hidden !important;
 		    }
@@ -24,22 +32,19 @@
 				overflow: hidden; 
 			}
 			
-			
-			#features {
-				background: #ffffff url("img/bg.jpg") no-repeat top left;
-				min-height: 1900px;
-				padding: 1em 0 0 1em;
-			}
-			
 			li {
 				padding: .5em;
 			}
 		</style>
     </head>
     <body>
-	<div class="row">
+
+		<div class="row hidden-md hidden-lg">
+			<img class="img-responsive center-block" src="img/logo.png">
+		</div>
+
 		<!-- Main jumbotron for a primary marketing message or call to action -->
-		<div class="jumbotron" style="padding: 0">
+		<div class="jumbotron hidden-sm hidden-xs" style="padding: 0">
 
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			  
@@ -58,76 +63,117 @@
 				</div>
 			  </div>
 			  
-			  <div style="position: absolute; top: 2em; left: 2em">
-					<img src="img/logo.png">
+			  <div style="position: absolute; top: 0; padding: 1em">
+				  <img class="img-responsive center-block" src="img/logo.png">
 			  </div>
-			  
-			  <div style="position: absolute; bottom: 0; width: 100%; padding-top: 5px; padding-bottom: 5px; background: rgba(0, 0, 0, 0.5);">
-					<img class="center-block" src="img/slogan.png">
-			  </div>		    
+  
+			  <div style="position: absolute; bottom: 0; width: 100%; padding: 1em 2em 1em 2em; background: rgba(0, 0, 0, 0.5);">
+				  <img class="center-block img-responsive" src="img/slogan.png">
+			  </div>		
 		  </div><!-- end carousel -->
 
 		</div><!-- end jumbotron -->
-	</div>
 
-    <div id="features">
-		<div class="row">
-		  <div class="col-md-1 text-center">
-			<h3><strong>
-			<em>45</em> degree<br>
-			angle of<br>
-			operation
-			</strong></h3>
-		  </div>	
-		
-		  <div class="col-md-11 text-right">
-			<img src="img/telescope.jpg"><br>
+		<div id="features">
+			<div class="row">
+				 <div class="col-sm-12 hidden-md hidden-lg">
+					<img class="center-block img-responsive" src="img/xp.png">
+				 </div>
+			</div>
 			
-			<h3><strong>
-			60mm of vertical plunge
-			&nbsp;&nbsp;
-			</strong></h3>
+			<div class="row">
+				  <div class="col-md-1 hidden-sm hidden-xs text-center">
+					<h3><strong>
+					<em>45</em> degree<br>
+					angle of<br>
+					operation
+					</strong></h3>
+				  </div>	
+				
+				  <div class="hidden-md hidden-lg col-sm-12">
+					<div style="padding: 2em">
+						<img src="img/bg.jpg" class="img-responsive">
+					</div>
+					
+					<div class="h3 text-center" style="position: absolute; top: 40%; left: 50%; transform: translate(-50%,-40%);">
+						<strong>
+							<em>45</em> degree angle of operation
+						</strong>
+					</div>
+				  </div>
+				
+				  <div class="col-md-11 col-sm-12">
+					<div class="h3 text-center hidden-md hidden-lg">
+						<strong>
+						60mm of vertical plunge
+						</strong>
+						<img src="img/telescope.jpg">
+					</div>  
+					  
+					<div class="h3 text-right hidden-sm hidden-xs">
+						<img src="img/telescope.jpg"><br>
+						<strong>
+						60mm of vertical plunge
+						&nbsp;&nbsp;
+						</strong>
+					</div>
+				 </div>
 		  </div>
-      </div>
-      <div class="row">
-		  <img class="center-block" src="img/xp.png">
-	  </div>
-	  
-	  <div class="row h3">
-		  <div class="col-md-4 text-center">
-			<img class="center-block" src="img/bug.png"><br>
-			<h1><strong>800-338-2326</strong></h1>
-			<h3>sales@atvpc.com</h3><br>
-			
-			Buy the Monster Extreme Perfomance Axle on eBay<br>
-
-			<a href="https://www.ebay.com/str/atvpartsconnection/Monster-Axle-XP-Sets/_i.html?_storecat=3642950018">
-				SUPER SAVINGS when you purchase all four!
-			</a>
-
-			
+		  
+		  <div class="row">
+			  <div class="col-md-12 hidden-sm hidden-xs">
+				<img class="center-block img-responsive" src="img/xp.png">
+			  </div>
 		  </div>
-		  <div class="col-md-6">
-			  <ul>
-				  <li>Monster Axles™ XP Series axles are designed to be stronger, more dependable and longer lasting than any other ATV/UTV axle</li>
+		  
+		  <div class="row h3">
+			  <div class="col-md-4 hidden-sm hidden-xs text-center">
+				<img class="center-block" src="img/bug.png"><br>
+				<h1><strong>800-338-2326</strong></h1>
+				<h3>sales@atvpc.com</h3><br>
+				
+				Buy the Monster Extreme Perfomance Axle on eBay<br>
 
-				  <li>Inner and outer joints share the same design, each with a 45 degree angle of operation (OEM inner joint only 23 degrees)</li>
+				<a href="https://www.ebay.com/str/atvpartsconnection/Monster-Axle-XP-Sets/_i.html?_storecat=3642950018">
+					SUPER SAVINGS when you purchase all four!
+				</a>
+			  </div>
+			  
+			  <div class="col-md-6 col-sm-12">
+				  <ul>
+					  <li>Monster Axles™ XP Series axles are designed to be stronger, more dependable and longer lasting than any other ATV/UTV axle</li>
 
-				  <li>Up to 60mm of vertical plunge for added performance (recommended for up to 4” lift kits)</li>
+					  <li>Inner and outer joints share the same design, each with a 45 degree angle of operation (OEM inner joint only 23 degrees)</li>
 
-				  <li>Plunge mechanism is removed from the inner joint and, instead, operates independently on the shaft itself (eliminating debilitating interactions in the joint that can damage the axle)</li>
+					  <li>Up to 60mm of vertical plunge for added performance (recommended for up to 4” lift kits)</li>
 
-				  <li>XP axles will never bind, burr or mushroom, leaving you with a CV joint that cannot be removed from the shaft</li>
+					  <li>Plunge mechanism is removed from the inner joint and, instead, operates independently on the shaft itself (eliminating debilitating interactions in the joint that can damage the axle)</li>
 
-				  <li>If necessary, XP axles are a breeze to repair - both inner and outer joints can be easily removed and serviced - even in the field</li>
+					  <li>XP axles will never bind, burr or mushroom, leaving you with a CV joint that cannot be removed from the shaft</li>
 
-				  <li>If needed, replacement parts are readily available </li>
-			 </ul>
+					  <li>If necessary, XP axles are a breeze to repair - both inner and outer joints can be easily removed and serviced - even in the field</li>
+
+					  <li>If needed, replacement parts are readily available </li>
+				 </ul>
+			  </div>
+			  
+			  <div class="col-sm-12 hidden-md hidden-lg text-center">
+				<img class="center-block" src="img/bug.png"><br>
+				
+				Buy the Monster Extreme Perfomance Axle on eBay<br>
+
+				<a href="https://www.ebay.com/str/atvpartsconnection/Monster-Axle-XP-Sets/_i.html?_storecat=3642950018">
+					SUPER SAVINGS when you purchase all four!
+				</a>
+				
+				<h1><strong>800-338-2326</strong></h1>
+				<h3>sales@atvpc.com</h3><br>
+				
+			  </div>
 		  </div>
-	  </div>
+	</div><!-- end features-->
 
-
-    </div> <!-- end features -->        
+    </div> <!-- end container -->        
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
