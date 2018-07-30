@@ -14,14 +14,6 @@
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js">
   </script>
   <style>
-                        @media (min-width: 1200px) {
-                                #features {
-                                        background: #ffffff url("img/bg.jpg") no-repeat top left;
-                                        min-height: 1900px;
-                                        padding: 1em 0 0 1em;
-                                }
-                        }
-
                         body {
                                 overflow-x: hidden !important;
                     }
@@ -78,37 +70,39 @@
     </div><!-- end carousel -->
   </div><!-- end jumbotron -->
   <div id="features">
-    <div class="row">
-      <div class="col-sm-12 hidden-md hidden-lg">
-        <a href=
-        "https://www.ebay.com/str/atvpartsconnection/Monster-Axles-XP-Pairs/_i.html?_storecat=3642921018">
-        <img class="center-block img-responsive" src=
-        "img/xp.png"></a>
+    <div class="row hidden-md hidden-lg">
+      <div class="col-sm-12">
+        <a href="https://www.ebay.com/str/atvpartsconnection/Monster-Axles-XP-Pairs/_i.html?_storecat=3642921018">
+        <img class="center-block img-responsive" src="img/xp.png"></a>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-1 hidden-sm hidden-xs h3 text-center">
-        <strong><em>45</em> degree<br>
-        angle of<br>
-        operation</strong>
-      </div>
-      <div class="hidden-md hidden-lg col-sm-12">
-        <div style="padding: 2em"><img src="img/bg.jpg" class=
-        "img-responsive"></div>
-        <div class="h3 text-center" style=
-        "position: absolute; top: 40%; left: 50%; transform: translate(-50%,-40%);">
+    <div class="row hidden-md hidden-lg ">
+      <div class="col-sm-12">
+        <div style="padding: 2em"><img src="img/bg.jpg" class="img-responsive"></div>
+        <div class="h3 text-center" style="position: absolute; top: 40%; left: 50%; transform: translate(-50%,-40%);">
           <strong><em>45</em> degree angle of operation</strong>
         </div>
       </div>
-      <div class="col-md-11 col-sm-12">
-        <div class="h3 text-center hidden-md hidden-lg">
-        <strong>60mm of vertical plunge</strong> <img src=
-        "img/telescope.jpg"></div>
-        <div class="h3 text-right hidden-sm hidden-xs">
-          <img src="img/telescope.jpg"><br>
-          <strong>60mm of vertical plunge &nbsp;&nbsp;</strong>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 hidden-sm hidden-xs">
+		<img class="img-responsive" src="img/outer.png">
       </div>
+
+      <div class="col-md-4 hidden-sm hidden-xs h3 text-right">
+			<img class="img-responsive" src="img/telescope.jpg"><br>
+			<div class="text-center">
+				<strong>60mm of vertical plunge</strong>
+			</div>
+      </div>
+
+      <div class="col-sm-12 hidden-md hidden-lg h3 text-center">
+			<strong>60mm of vertical plunge</strong> 
+			<img class="img-responsive center-block" src="img/telescope.jpg">
+	  </div>
+    </div>
+    
+    
     </div><!-- end row -->
     <div class="row">
       <div class="col-md-12 hidden-sm hidden-xs">
@@ -164,9 +158,17 @@
         <h3>sales@atvpc.com</h3><br>
       </div>
     </div><!-- end row -->
-  
+    <div class="row hidden-sm hidden-xs">
+		<div class="col-md-4"></div>
+		<div class="col-md-8 text-right">
+			<img class="img-responsive" src="img/inner.png">
+		</div>
+   </div> 
  
   </div><!-- end features-->
+
+  
+ <!-- 
     <div class="row hidden-sm hidden-xs" style="bottom: 0; margin-top: -14em">
 	  <div class="col-md-10"></div>
       <div class="col-md-1 h3 text-center">
@@ -175,7 +177,7 @@
         operation</strong>
       </div>
     </div><!-- end row --> 
-  
+ 
   
   <script src=
   "//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
